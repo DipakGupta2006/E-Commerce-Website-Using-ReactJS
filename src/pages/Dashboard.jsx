@@ -3,6 +3,9 @@ import Slideimg from '../components/Slideimg'
 import Card from '../components/Card'
 import '../styles/Dashboard.css'
 import Brands from '../components/Brands'
+import Leftlink from '../components/Leftlink'
+import Products from '../components/Products'
+import Banner from '../components/Banner'
 
 const Dashboard = () => {
   return (
@@ -39,40 +42,103 @@ const Dashboard = () => {
           <Brands src="https://images.meesho.com/images/marketing/1743159322237.webp" />
           <Brands src="https://images.meesho.com/images/marketing/1744636558884.webp" />
           <Brands src="https://images.meesho.com/images/marketing/1743159415385.webp" />
+
+          <Brands src="https://images.meesho.com/images/marketing/1744636599446.webp" />
+          <Brands src="https://images.meesho.com/images/marketing/1743159377598.webp" />
+          <Brands src="https://images.meesho.com/images/marketing/1743159363205.webp" />
+          <Brands src="https://images.meesho.com/images/marketing/1743159393231.webp" />
+          <Brands src="https://images.meesho.com/images/marketing/1743159302944.webp" />
+          <Brands src="https://images.meesho.com/images/marketing/1743159322237.webp" />
+          <Brands src="https://images.meesho.com/images/marketing/1744636558884.webp" />
+          <Brands src="https://images.meesho.com/images/marketing/1743159415385.webp" />
         </div>
       </div>
 
+
+
+
       <div className="BodyContainer">
-        <aside className="BodyNav">
-          <h3>Top categories</h3>
-          <ul>
-            <li><a href="#">Watches</a></li>
-            <li><a href="#">Home & Kitchen</a></li>
-            <li><a href="#">Health & Personal Care</a></li>
-            <li><a href="#">Grocery & Gourmet</a></li>
-            <li><a href="#">Pet Supplies</a></li>
-            <li><a href="#">Shoes & Handbags</a></li>
-            <li><a href="#">Movies & TV Shows</a></li>
-            <li><a href="#">Gift Cards</a></li>
-            <li><a href="#">Beauty</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Computers & Accessories</a></li>
-            <li><a href="#">Electronics</a></li>
-            <li><a href="#">Baby Products</a></li>
-            <li><a href="#">Car & Motorbike</a></li>
-            <li><a href="#">Office Products</a></li>
-            <li><a href="#">Garden & Outdoors</a></li>
-            <li><a href="#">Musical Instruments</a></li>
-          </ul>
-        </aside>
+        <Leftlink />
 
         <section className="BodyContent">
+          <p style={{ textAlign: 'center', fontSize: '30px', color: 'olive', fontFamily: 'inherit' }}>Bestsellers</p>
           <div className="BodyPlaceholder">
-            {/* <p>This area is reserved for page 2 content. Add your components here later.</p> */}
-            
+
+            <Products src='https://m.media-amazon.com/images/I/81qXDWWCkdL._SY741_.jpg' off='67% off' time='Limited Time Deal' price='₹999.00' mrp=' ₹2,999.00' desc='Arayna Women’s Cotton Printed Kurta Set with Palazzo Pants and Dupatta | Ethnic Straight Kurta' />
+
+            <Products src='https://m.media-amazon.com/images/I/61OyP6VX4cL._SY879_.jpg' off='64% off' time='Limited Time Deal' price='₹549' mrp='₹1999' desc="Bewakoof Women's Cotton Oversized Fit Half Sleeve Round Neck T-Shirt | Casual wear | Streetwear | Oversized Tshirt for Woman Cotton| Baggy" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/71U-W-OUKOL._SX679_.jpg' off='44% off' time='Limited Time Deal' price='₹999' mrp='₹3999' desc="Yashika Women's Trendy Banarasi Kanjivaram Navy Color Art Silk Saree with Blouse Material" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/61p0yiuehWL._SY879_.jpg' off='23% off' time='Limited Time Deal' price='₹449' mrp='₹999' desc="GLOSY Women Shirt || Shirt for Woman || Top for Women" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/61WM6IDaBPL._SX679_.jpg' off='4% off' time='Limited Time Deal' price='₹22,998' mrp='₹23,499' desc="iQOO Z10R 5G (Aquamarine, 8GB RAM, 128GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/61T18EfkX0L._SX679_.jpg' off='28% off' time='Limited Time Deal' price='₹22,998 ' mrp='₹31,999' desc="OnePlus Nord CE6 Lite | 6GB+128GB | Hyper Black | Segment's Fastest Dimensity 7400 Apex Processor | 7000mAh Battery | Segment's Highest 144Hz Refresh Rate | 50MP Main Camera, 4K Video Recording" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/51wqZYWGr+L._SX522_.jpg' off='36% off' time='Limited Time Deal' price='₹299' mrp='₹459' desc="Simple Kind To Skin Refreshing Facial Wash 150 ml | 100% Soap-Free Facewash that doesn't dry out your skin| For All Skin Types" />
+
+
+            <Products src='https://rukminim2.flixcart.com/image/1536/1536/xif0q/shoe/r/k/8/-original-imahnhfqdtbfhvzg.jpeg?q=90' off='64% off' time='Limited Time Deal' price='₹2,159' mrp='₹5,999' desc="adidas Runsmart ST 2 M Running Shoes For Men (Black , 6)" />
+
+
+            <Products src='https://images.meesho.com/images/products/398163636/prh0a_512.avif?width=512' off='60% off' time='Limited Time Deal' price='₹120' mrp='₹199' desc="Mars City Strokes Charming Eyes Liquid Eyeliner Smooth Glide Long-lasting 1 ml (Black)" />
+
+
+            <Products src='https://images.meesho.com/images/products/335192230/kkqdo_512.avif?width=512' off='40% off' time='Limited Time Deal' price='₹549' mrp='₹1999' desc="NOY 4 Waterproof & Smudge-Proof Matte Liquid Lipstick Essentials #YN177" />
+
+
+            <Products src='https://images.meesho.com/images/products/10202990/aznyl_512.avif?width=512' off='33% off' time='Limited Time Deal' price='₹749' mrp='₹2999' desc="Fancy Polycotton Double Bedsheet, size 90 x 90 inches, includes 2 pillow covers; and if ordering a Single Bedsheet, the size is 60 x 90 inches, includes 2 pillow cover." />
+
+
+            <Products src='https://images.meesho.com/images/products/375088164/dbcvv_512.avif?width=512' off='45% off' time='Limited Time Deal' price='₹249' mrp='₹999' desc="Men's Printed Kurta Cotton (Only Kurta)" />
+
+
+            <Products src='https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/l/u/z/-original-imahhnn9kkaj5wdn.jpeg?q=90' off='40% off' time='Limited Time Deal' price='₹749' mrp='₹1399' desc="Fire-Boltt Aero Shadow TWS Earbuds, RGB Lights Custom EQ Profile 50H Playtime Quad Mic ENC Bluetooth Headset (White, True Wireless)" />
+
+
+            <Products src='https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/b/y/z/wireless-z3-anc-enc-earphones-neckband-100hours-play-time-t-zed-original-imahktyrjc2jgazg.jpeg?q=90' off='10% off' time='Limited Time Deal' price='₹249' mrp='₹899' desc="T ZED Wireless Z3 ANC&ENC Earphones&Neckband Bluetooth Headset (Grand Green, In the Ear)" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/61Fe+1-71-L._SX679_.jpg' off='4% off' time='Limited Time Deal' price='₹449' mrp='₹799' desc="WHOOP Peak – 12-Month Membership – 5.0 Health and Fitness Wearable – 24/7 Activity and Sleep Tracker with Heart Rate, HRV, Stress Monitor, Personalized Coaching, Healthspan – 14+ Days Battery Life" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/61vBCu8c5RL._SX679_.jpg' off='40% off' time='Limited Time Deal' price='₹1149' mrp='₹1999' desc="Borosil Carry Fresh Stainless Steel Lunchbox | 2 pc Round Container Set (280ml Each) | Tiffin for Office, School & College with Food Grade Steel | Leakproof & Dishwasher Safe | 1 Year Warranty" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/412BuKKTbcL._SY300_SX300_QL70_FMwebp_.jpg' off='50% off' time='Limited Time Deal' price='₹249' mrp='₹599' desc="Vedaka Organic Yellow Moong Dal 1Kg | Rich Source Of Protein | Cholesterol Free & No Added Additives" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/51gCi0F7EbL._SY300_SX300_QL70_FMwebp_.jpg' off='12% off' time='Limited Time Deal' price='₹249' mrp='₹399' desc="Saffola Muesli Choco Crunch with Flavour Pops, 700 gm | 15 in 1 Fruit and Nuts, Seeds, Millet & more | Cereals for breakfast rich in wholegrain, protein, fibre" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/41v0Us3a4eL._SX342_SY445_QL70_FMwebp_.jpg' off='33% off' time='Limited Time Deal' price='₹549' mrp='₹899' desc="LED Disco Ball Party Light with Remote Control, Disco Lights for Party, Sound Activated Stage Light for DJ Rave, Birthday, Wedding, Bar, Christmas" />
+
+
+            <Products src='https://m.media-amazon.com/images/I/41CHDpjyGqL._SX342_SY445_QL70_FMwebp_.jpg' off='33% off' time='Limited Time Deal' price='₹549' mrp='₹899' desc="Ligh.t Home Decor Modern Flush Mount Ceiling Lighting LED Lights, Semi Flush Light Fitting Pendant Light Lamp Chandelier Metal 22cm Cone Light Shade for Hall, Living Room, Lounge (White 2)" />
           </div>
         </section>
       </div>
+
+
+      <div id="BannerDashboard">
+        <Banner />
+        <div className="small-images">
+          <img src="https://images.meesho.com/images/marketing/1744722796811.webp" id='img1' alt="" />
+          <img src="https://images.meesho.com/images/marketing/1744635113661.webp" id='img2' alt="" />
+          <img src="https://images.meesho.com/images/marketing/1744635139351.webp" id='img3' alt="" />
+          <img src="https://images.meesho.com/images/marketing/1744635189897.webp" id='img4' alt="" />
+        </div>
+
+      </div>
+
+
+      
 
 
     </div>
