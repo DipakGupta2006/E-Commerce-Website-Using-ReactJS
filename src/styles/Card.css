@@ -1,0 +1,110 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: min(100%, 220px);
+    padding: 12px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    /* background: #fff; */
+    border-radius: 12px;
+    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); */
+}
+
+.imageCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.CardImage {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.cardText {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #333;
+    width: 100%;
+}
+
+
+.imgCardsBrands {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0px;
+    /* background: #f8fafc; */
+}
+
+.brandTrack {
+    display: flex;
+    align-items: center;
+    gap: 74px;
+    width: max-content;
+    animation: scrollBrands 30s linear infinite;
+}
+
+.brandTrack:hover {
+    animation-play-state: paused;
+}
+
+.boxBrands {
+    flex: 0 0 auto;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageCardBrands {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.CardImageBrands {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+@keyframes scrollBrands {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20%);
+    }
+}
+
+@media (max-width: 680px) {
+    .brandTrack {
+        gap: 16px;
+    }
+
+    .boxBrands {
+        width: 100px;
+    }
+
+    .CardImageBrands {
+        max-width: 100px;
+    }
+}
