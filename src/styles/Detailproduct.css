@@ -1,0 +1,53 @@
+#detailBoxImg {
+    border: 2px solid rgb(246, 44, 37);
+
+}
+
+#detailBoxImg img {
+    border-radius: 1px;
+}
+
+.detailBox {
+    border: 2px solid black;
+    height: 730px;
+    width: 1000px;
+    display: flex;
+}
+
+#DetailProduct {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* box-sizing: border-box; */
+}
+
+.LeftBoxDetail{
+    height: 700px;
+    width: 550px;
+    border: 3px solid gray;
+}
+
+
+.RightBoxDetail{
+    height: 700px;
+    width: 450px;
+    border: 3px solid gray;
+}
+
+
+
+.name{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.rating .star{
+    color: gold;
+    font-size: 19px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    
+}

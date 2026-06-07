@@ -6,6 +6,8 @@ import Brands from '../components/Brands'
 import Leftlink from '../components/Leftlink'
 import Products from '../components/Products'
 import Banner from '../components/Banner'
+import Detailproduct from '../components/Detailproduct'
+import '../styles/Detailproduct.css'
 
 const Dashboard = () => {
   return (
@@ -138,7 +140,9 @@ const Dashboard = () => {
       </div>
 
 
-      
+      <div id="DetailProduct">
+        <Detailproduct/>
+      </div>
 
 
     </div>
