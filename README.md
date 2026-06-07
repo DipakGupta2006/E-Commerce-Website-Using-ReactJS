@@ -1,16 +1,106 @@
-# React + Vite
+# 🛒 E-Commerce Website Using ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive E-Commerce website built using ReactJS. This project is being developed step-by-step to strengthen frontend development skills and understand how real-world e-commerce applications are structured.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Completed
 
-## React Compiler
+* Responsive Navbar
+* React Router Setup
+* Project Structure Organization
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Coming Soon
 
-## Expanding the ESLint configuration
+* Home Page
+* Hero Section
+* Product Cards
+* Product Details Page
+* Shopping Cart
+* User Authentication
+* Search & Filter
+* Checkout Page
+* Backend Integration
+* Payment Gateway
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* ReactJS
+* Vite
+* React Router DOM
+* CSS3
+* JavaScript (ES6+)
+
+## 📂 Folder Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+├── pages/
+├── layouts/
+├── routes/
+├── App.jsx
+└── main.jsx
+```
+
+## ⚡ Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Go to the project folder:
+
+```bash
+cd E-Commerce-Website-Using-ReactJS
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## 🎯 Project Goal
+
+The goal of this project is to build a fully functional E-Commerce application while learning ReactJS concepts such as:
+
+* Components
+* Props
+* State Management
+* React Hooks
+* Routing
+* API Integration
+* Authentication
+* Frontend Architecture
+
+## 📈 Development Progress
+
+* [x] Project Setup
+* [x] Navbar
+* [ ] Hero Section
+* [ ] Product Listing
+* [ ] Product Details
+* [ ] Cart Functionality
+* [ ] Authentication
+* [ ] Backend Integration
+* [ ] Payment Integration
+* [ ] Deployment
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome.
+
+## 📜 License
+
+This project is created for learning and educational purposes.
