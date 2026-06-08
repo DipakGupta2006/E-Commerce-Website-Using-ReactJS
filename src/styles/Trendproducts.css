@@ -1,0 +1,134 @@
+.TrendingProducts{
+    height: 600px;
+    max-width: 1400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    img{
+        /* border: 2px solid black; */
+        border-radius: 1px;
+    }
+}
+
+
+.TrendingBox{
+    /* border: 2px solid rgb(31, 26, 19); */
+    height: 520px;
+    text-align:left;
+    /* margin: 3px; */
+
+}
+
+.trendname{
+    /* margin-top: 5px; */
+    margin-bottom: 3px;
+}
+
+.trendoff{
+    margin-top: 10px;
+    margin-bottom: 8px;
+
+}
+
+.trendmrp{
+    margin-bottom: -8px;
+}
+
+.trendinfo{
+    padding: 4px;
+}
+
+#addToCartBtn {
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffd814;
+    color: #0f1111;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+#addToCartBtn:hover {
+    background-color: #f7ca00;
+}
+
+#buyNowBtn {
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffa41c;
+    color: #0f1111;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#buyNowBtn:hover {
+    background-color: #fa8900;
+}
+
+#productBenefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+}
+
+.benefitItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 10px;
+}
+
+
+.benefitItem i {
+    font-size: 28px;
+    color: #007185;
+    margin-bottom: 8px;
+}
+
+.benefitItem span {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+#sellerInfo {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.sellerRow {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.sellerLabel {
+    width: 120px;
+    color: #565959;
+    font-size: 14px;
+}
+
+.sellerValue {
+    color: #007185;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sellerValue:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+

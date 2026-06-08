@@ -13,9 +13,10 @@ const BestsellerImg = (props) => {
                         style={{
                             width: props.imgWidth,
                             height: props.imgHeight,
-                            borderRadius:props.imgBorder
+                            borderRadius: props.imgBorder
                         }}
-                    />                </div>
+                    />
+                </div>
 
                 <div className="detailBox">
 

@@ -11,7 +11,7 @@ const Detailproduct = () => {
 
             <div className="detailBox">
                 
-                <div className="LeftBoxDetail">
+                <div className="">
                     <div className="name">
                         JIHU CULTURE Women's Orange Sequence Embroidery Work Silk Semi-Sttiched Lehenga Choli - JH290ORG
                     </div>
