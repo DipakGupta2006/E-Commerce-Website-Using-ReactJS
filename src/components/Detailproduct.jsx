@@ -56,11 +56,11 @@ const Detailproduct = () => {
                         <i class="fa-solid fa-tags"></i>&nbsp;Offers
                     </div>
 
+
                     <div className="leftContainer">
                         <table>
                             <tr>
                                 <td><strong className='highlights'>Top Highlights</strong></td>
-                                {/* <td>Pattern Panelled</td> */}
                             </tr>
 
                             <tr>
@@ -93,7 +93,6 @@ const Detailproduct = () => {
                                 <td>India</td>
                             </tr>
                         </table>
-
                     </div>
 
                     <div className="bottomContainer">

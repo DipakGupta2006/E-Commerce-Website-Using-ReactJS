@@ -1,0 +1,88 @@
+import React from 'react'
+import '../styles/BestsellersImg.css'
+
+const BestsellerImg = (props) => {
+    return (
+        <>
+            <div className="BadaDaba">
+
+                <div id='detailBoxImg'>
+                    <img src={props.productImg} alt="" />
+                </div>
+
+                <div className="detailBox">
+
+                    <div className="LeftBoxDetail">
+                        <div className="name">
+                            {props.productName}
+                        </div>
+
+                        <div className="rating">
+                            <p className='ratenum'>{props.productRate}</p>
+                            <p className='star'>
+                                {props.productStar}
+                            </p>
+                        </div>
+
+                        <div className="brought">
+                            {props.productBrought}
+                        </div>
+                        <div className="line"></div>
+
+                        <div className="off">
+                            {props.productOff}
+                        </div>
+
+
+
+                        <div className="mrp">
+                            <div className="price">
+                                {props.productPrice}
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;M.R.P: &nbsp;
+                            <span className='mrpmrp'>
+                                {props.productMrp}
+                            </span>
+                        </div>
+
+                        <div className="taxes">
+                            {props.productTax}
+                        </div>
+
+                        <div className="emi">
+                            {props.productEmi}
+                        </div>
+
+                        <div className="offer">
+                            {props.productOffer}
+                        </div>
+
+                        <div className="leftContainer">
+                            {props.productHighlight}
+
+                        </div>
+
+                        <div className="bottomContainer">
+                            {props.productInfo}
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div className="RightBoxDetail">
+                        {props.productSmallImg}
+                        
+                    </div>
+                </div>
+            </div>
+
+        </>
+
+
+    )
+}
+
+export default BestsellerImg
