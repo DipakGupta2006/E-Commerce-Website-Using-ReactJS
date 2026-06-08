@@ -6,9 +6,16 @@ const BestsellerImg = (props) => {
         <>
             <div className="BadaDaba">
 
-                <div id='detailBoxImg'>
-                    <img src={props.productImg} alt="" />
-                </div>
+                <div id='detailBoxImg image-container'>
+                    <img
+                        src={props.productImg}
+                        alt=""
+                        style={{
+                            width: props.imgWidth,
+                            height: props.imgHeight,
+                            borderRadius:props.imgBorder
+                        }}
+                    />                </div>
 
                 <div className="detailBox">
 
@@ -74,7 +81,7 @@ const BestsellerImg = (props) => {
 
                     <div className="RightBoxDetail">
                         {props.productSmallImg}
-                        
+
                     </div>
                 </div>
             </div>

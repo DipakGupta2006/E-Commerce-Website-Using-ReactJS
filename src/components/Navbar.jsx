@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className="nav-container">
                 <div className="brand">
                     <i className="fas fa-store brand-icon"></i>
-                    <span className="brand-name">abc</span>
+                    <span className="brand-name">Cartify</span>
                     <span>✦</span>
                 </div>
 

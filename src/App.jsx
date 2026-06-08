@@ -10,6 +10,7 @@ import Fashion from './pages/Fashion'
 import Fresh from './pages/Fresh'
 import Mobiles from './pages/Mobiles'
 import Trending from './pages/Trending'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
         <Route path='/Trending' element={<Trending/>}></Route>
       </Routes>
 
-      
+      <Footer/>
       
       </BrowserRouter>
 

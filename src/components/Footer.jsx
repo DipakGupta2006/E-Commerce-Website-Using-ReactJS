@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className="footer-top">
 
                         <div className="footer-column">
-                            <h3>About ABC</h3>
+                            <h3>About Cartify</h3>
                             <a href="#">About Us</a>
                             <a href="#">Careers</a>
                             <a href="#">Press Releases</a>
@@ -34,12 +34,12 @@ const Footer = () => {
                         </div>
 
                         <div className="footer-column">
-                            <h3>Earn With ABC</h3>
+                            <h3>Earn With Cartify</h3>
                             <a href="#">Sell Products</a>
                             <a href="#">Become Affiliate</a>
                             <a href="#">Advertise</a>
                             <a href="#">Partner Program</a>
-                            <a href="#">ABC Business</a>
+                            <a href="#">Cartify Business</a>
                         </div>
 
                         <div className="footer-column">
@@ -64,13 +64,13 @@ const Footer = () => {
                     <div className="footer-middle">
 
                         <div className="footer-logo">
-                            <h1>ABC</h1>
+                            <h1>Cartify</h1>
                         </div>
 
                         <div className="footer-address">
                             <h3>Registered Office</h3>
                             <p>
-                                ABC Pvt Ltd,<br />
+                                Cartify Pvt Ltd,<br />
                                 Business Park,<br />
                                 Mumbai, Maharashtra,<br />
                                 India
@@ -79,7 +79,7 @@ const Footer = () => {
 
                         <div className="footer-contact">
                             <h3>Contact</h3>
-                            <p>Email: support@abc.com</p>
+                            <p>Email: support@cartify.com</p>
                             <p>Phone: +91 9876543210</p>
                         </div>
 

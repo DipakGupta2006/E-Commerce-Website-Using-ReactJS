@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styles/Heading.css'
-const Heading = (props) => {
-  return (
-    <div >
 
-      <h1 className='head'>Bestsellers</h1>
-      <p className='subHead'>Our most popular products based on sales. Updated frequently.</p>
+const Heading = ({ heading, desc }) => {
+  return (
+    <div className='heading-container'>
+      <h1 className='head'>{heading}</h1>
+      <p className='subHead'>{desc}</p>
     </div>
   )
 }

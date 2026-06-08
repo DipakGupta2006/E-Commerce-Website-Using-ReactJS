@@ -149,9 +149,7 @@ const Dashboard = () => {
         <Detailproduct/>
       </div>
 
-          <div className="footer">
-            <Footer/>
-          </div>
+          
 
     </div>
   )
