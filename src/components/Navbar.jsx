@@ -40,9 +40,10 @@ const Navbar = () => {
         <div>
             <div className="nav-container">
                 <div className="brand">
-                    <i className="fas fa-store brand-icon"></i>
+                    {/* <i className="fas fa-store brand-icon"></i> */}
+                    <i class="fa-solid fa-cart-shopping"></i>
                     <span className="brand-name">Cartify</span>
-                    <span>✦</span>
+                    <span></span>
                 </div>
 
                 <div className="nav-links" id="navLinks" ref={navLinksRef}>
