@@ -8,6 +8,8 @@ import Products from '../components/Products'
 import Banner from '../components/Banner'
 import Detailproduct from '../components/Detailproduct'
 import '../styles/Detailproduct.css'
+import Footer from '../components/Footer'
+import { BrowserRouter } from 'react-router-dom'
 
 const Dashboard = () => {
   return (
@@ -104,10 +106,10 @@ const Dashboard = () => {
             <Products src='https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/l/u/z/-original-imahhnn9kkaj5wdn.jpeg?q=90' off='40% off' time='Limited Time Deal' price='₹749' mrp='₹1399' desc="Fire-Boltt Aero Shadow TWS Earbuds, RGB Lights Custom EQ Profile 50H Playtime Quad Mic ENC Bluetooth Headset (White, True Wireless)" />
 
 
-            <Products src='https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/b/y/z/wireless-z3-anc-enc-earphones-neckband-100hours-play-time-t-zed-original-imahktyrjc2jgazg.jpeg?q=90' off='10% off' time='Limited Time Deal' price='₹249' mrp='₹899' desc="T ZED Wireless Z3 ANC&ENC Earphones&Neckband Bluetooth Headset (Grand Green, In the Ear)" />
+            <Products src='https://m.media-amazon.com/images/I/41RCVsQkYDL._SY300_SX300_QL70_FMwebp_.jpg' off='10% off' time='Limited Time Deal' price='₹249' mrp='₹899' desc="Fire-Boltt Ninja Call Pro Plus Bluetooth Calling Smart Watch, 1.83″ HD Display, AI Voice Assistant, 120+ Sports Modes, IP67 Waterproof, SpO2 & Heart Rate Monitor Smartwatch for Men & Women - Black" />
 
 
-            <Products src='https://m.media-amazon.com/images/I/61Fe+1-71-L._SX679_.jpg' off='4% off' time='Limited Time Deal' price='₹449' mrp='₹799' desc="WHOOP Peak – 12-Month Membership – 5.0 Health and Fitness Wearable – 24/7 Activity and Sleep Tracker with Heart Rate, HRV, Stress Monitor, Personalized Coaching, Healthspan – 14+ Days Battery Life" />
+            <Products src='https://m.media-amazon.com/images/I/41a4r0yyaPL._SY300_SX300_QL70_FMwebp_.jpg' off='4% off' time='Limited Time Deal' price='₹449' mrp='₹799' desc="WHOOP Peak – 12-Month Membership – 5.0 Health and Fitness Wearable – 24/7 Activity and Sleep Tracker with Heart Rate, HRV, Stress Monitor, Personalized Coaching, Healthspan – 14+ Days Battery Life" />
 
 
             <Products src='https://m.media-amazon.com/images/I/61vBCu8c5RL._SX679_.jpg' off='40% off' time='Limited Time Deal' price='₹1149' mrp='₹1999' desc="Borosil Carry Fresh Stainless Steel Lunchbox | 2 pc Round Container Set (280ml Each) | Tiffin for Office, School & College with Food Grade Steel | Leakproof & Dishwasher Safe | 1 Year Warranty" />
@@ -122,7 +124,7 @@ const Dashboard = () => {
             <Products src='https://m.media-amazon.com/images/I/41v0Us3a4eL._SX342_SY445_QL70_FMwebp_.jpg' off='33% off' time='Limited Time Deal' price='₹549' mrp='₹899' desc="LED Disco Ball Party Light with Remote Control, Disco Lights for Party, Sound Activated Stage Light for DJ Rave, Birthday, Wedding, Bar, Christmas" />
 
 
-            <Products src='https://m.media-amazon.com/images/I/41CHDpjyGqL._SX342_SY445_QL70_FMwebp_.jpg' off='33% off' time='Limited Time Deal' price='₹549' mrp='₹899' desc="Ligh.t Home Decor Modern Flush Mount Ceiling Lighting LED Lights, Semi Flush Light Fitting Pendant Light Lamp Chandelier Metal 22cm Cone Light Shade for Hall, Living Room, Lounge (White 2)" />
+            <Products src='https://m.media-amazon.com/images/I/41ZspYJJ0OL._SY300_SX300_QL70_FMwebp_.jpg' off='23% off' time='Limited Time Deal' price='₹75549' mrp='₹84899' desc='ASUS TUF A15 (2025), AMD Ryzen 7 7445HS,RTX 3050-4GB,75W TGP,16GB DDR5(Upgradeable Upto 64GB) 512GB SSD,FHD,15.6",144Hz,RGB Keyboard,Windows 11,Graphite Black,2.3 Kg FA506NCG-HN199W, Gaming Laptop' />
           </div>
         </section>
       </div>
@@ -140,10 +142,16 @@ const Dashboard = () => {
       </div>
 
 
+          <div className="topRatedProduct">
+            Top Rated Product
+          </div>
       <div id="DetailProduct">
         <Detailproduct/>
       </div>
 
+          <div className="footer">
+            <Footer/>
+          </div>
 
     </div>
   )

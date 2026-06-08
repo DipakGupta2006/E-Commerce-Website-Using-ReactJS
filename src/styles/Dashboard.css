@@ -228,3 +228,10 @@
     top: 330px;
     right: 350px;
 }
+
+
+.topRatedProduct{
+    text-align: center;
+    padding: 30px;
+    font-size: 27px;
+}
