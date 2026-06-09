@@ -8,9 +8,9 @@ const Footer = () => {
             <div className="FooterContainer">
                 <footer className="footer">
 
-                    <div className="back-to-top"  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-                        
-                            Back to Top
+                    <div className="back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+
+                        Back to Top
                     </div>
 
                     <div className="footer-top">
@@ -99,6 +99,16 @@ const Footer = () => {
                             {/* <i class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-telegram"></i><i class="fa-brands fa-youtube"></i> */}
                         </div>
 
+                    </div>
+
+                    <div className="footer-disclaimer">
+                        <p>
+                            Disclaimer: This website is a personal educational project created for
+                            learning and practice purposes only. Product images, names, logos,
+                            trademarks, and brand references may belong to their respective owners,
+                            including Amazon, Flipkart, Meesho, and others. This project is not
+                            affiliated with, endorsed by, or connected to any of these companies.
+                        </p>
                     </div>
 
                 </footer>

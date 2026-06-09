@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 60px 80px;
+    padding: 60px 50px;
     border-bottom: 1px solid #3a4553;
 }
 
@@ -114,3 +114,14 @@
     font-size: 19px;
 }
 
+.footer-disclaimer {
+    border-top: 1px solid #3a4553;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+.footer-disclaimer p {
+    font-size: 13px;
+    color: #b0b0b0;
+    line-height: 1.6;
+}
