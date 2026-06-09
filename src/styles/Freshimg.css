@@ -1,0 +1,41 @@
+.grocery-container {
+    width: 95%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.grocery-heading {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.grocery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 40px;
+}
+
+.grocery-card {
+    width: 220px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grocery-card img {
+    width: 220px;
+    height: 220px;
+    /* border-radius: 50%; */
+    object-fit: contain;
+    /* background-color: #dff1bc; */
+}
+
+.grocery-card p {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.2;
+}
