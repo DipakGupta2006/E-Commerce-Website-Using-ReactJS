@@ -142,14 +142,119 @@ const Dashboard = () => {
       </div>
 
 
-          <div className="topRatedProduct">
-            Top Rated Product
-          </div>
-      <div id="DetailProduct">
-        <Detailproduct/>
+      <div className="topRatedProduct">
+        Top Rated Product
       </div>
 
-          
+      <div id="DetailProduct">
+
+        <Detailproduct
+          productImg="https://m.media-amazon.com/images/I/71TNGiuXngL._SX569_.jpg"
+          imgWidth="500px"
+          imgHeight="750px"
+          imgBorder="1px"
+          productName="LUXE VIBE Printed Chinon Silk Lehenga Choli with Sequins Embroidered Net Dupatta & Stitched Banglory Silk Blouse for Women"
+          productRate="4.9"
+          productStar="&#9733;&#9733;&#9733;&#9733;&#9733;"
+          productBrought={
+            <>
+              <b>80+ bought</b> in past month
+            </>
+          }
+          productOff="22% off"
+          productPrice="2,999 /-"
+          productMrp="₹3,999/-"
+          productTax="Inclusive of all taxes"
+          productEmi={
+            <>
+              <b>EMI </b>starts at ₹129. No Cost EMI available <span>EMI options</span><i class="fa-solid fa-angle-down"></i>
+            </>
+          }
+          productOffer={
+            <>
+              <i class="fa-solid fa-tags"></i>&nbsp;Offer
+            </>
+          }
+
+          productHighlight={
+            <>
+              <table>
+                <tr>
+                  <td><strong className='highlights'>Top Highlights</strong></td>
+                </tr>
+
+                <tr>
+                  <td><strong>Weave type</strong></td>
+                  <td>Embroidery	</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Pattern</strong></td>
+                  <td>Embroidered,Printed</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Care instructions</strong></td>
+                  <td>Hand Wash Only	</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Style</strong></td>
+                  <td>Classic Indian,Traditional,Festive Wear,Party Wear,Wedding Wear	</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Occasion type	</strong></td>
+                  <td>Weddings,Parties,Festival</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Neck style</strong></td>
+                  <td>Round Neck	</td>
+                </tr>
+
+
+              </table>
+            </>
+          }
+
+          productInfo={
+            <>
+              <div class="about-item">
+                <h3>About this item</h3>
+                <ul>
+                  <li>
+                    Premium Chinon Silk Printed Lehenga: Beautifully crafted lehenga made from Chinon silk with elegant printed design and soft silk inner lining for comfort.
+
+                    <li>
+                      Heavy Flared Silhouette: Features a 3.5-meter flair with canvas and can-can stitching, giving a rich, voluminous and graceful look.
+                    </li>
+
+                    <li>
+                      Embroidered Net Layer Work: Lehenga enhanced with a soft net layer decorated with embroidery and sequins work for a festive finish.                  </li>
+                  </li>
+
+                  <li>
+                    Adjustable Stitched Blouse: Comes with a fully stitched Banglory.
+                  </li>
+
+                </ul>
+              </div>
+            </>
+          }
+
+          productSmallImg={
+            <>
+              <img src="https://m.media-amazon.com/images/I/711oZ16TpCL._SX569_.jpg" alt="" />
+              <img src="https://m.media-amazon.com/images/I/71oCQXHKraL._SX569_.jpg" alt="" />
+              <img src="https://m.media-amazon.com/images/I/710YASXWB1L._SX569_.jpg" alt="" />
+              <img src="https://m.media-amazon.com/images/I/71hXbcMq5iL._SX569_.jpg" alt="" />
+
+            </>
+          }
+        />
+      </div>
+
 
     </div>
   )
