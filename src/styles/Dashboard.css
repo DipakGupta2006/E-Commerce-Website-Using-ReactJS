@@ -188,6 +188,17 @@
     }
 }
 
+/* Mobile: hide left navigation (Leftlink) and adjust banner small images */
+@media (max-width: 640px) {
+    .BodyNav {
+        display: none;
+    }
+
+    .small-images img {
+        display: none;
+    }
+}
+
 #BannerDashboard {
     position: relative;
     /* display: flex; */

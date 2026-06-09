@@ -194,3 +194,53 @@ padding-top: 15px;
     width: 220px;
     border-radius: 1px;
 }
+
+/* Mobile responsiveness: stack detail box and scale images for small screens */
+@media (max-width: 768px) {
+    .detailBox {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        gap: 12px;
+    }
+
+    .LeftBoxDetail {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    #detailBoxImg img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .RightBoxDetail {
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        gap: 8px;
+        padding: 8px;
+    }
+
+    /* Stack small images vertically on narrow screens to avoid overlap */
+    .RightBoxDetail {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .RightBoxDetail img {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    table td:first-child {
+        width: 120px;
+    }
+}

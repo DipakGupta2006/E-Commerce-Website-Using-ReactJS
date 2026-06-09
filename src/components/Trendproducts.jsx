@@ -19,6 +19,7 @@ const Trendproducts = (props) => {
                 <div className="name trendname">
                     {props.prodName}
                 </div>
+                <div className="line"></div>
 
 
                 <div className="off trendoff">
@@ -39,6 +40,8 @@ const Trendproducts = (props) => {
                 <div className="about-item trendinfo">
                     {props.prodInfo}
                 </div>
+
+                <div className="line"></div>
 
                 <button id="addToCartBtn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
                 <button id="buyNowBtn">Buy Now <i className="fa-solid fa-bag-shopping"></i></button>
