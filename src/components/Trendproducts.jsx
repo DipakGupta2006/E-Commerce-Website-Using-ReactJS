@@ -58,8 +58,6 @@ const Trendproducts = (props) => {
                         <span>Free Delivery</span>
                     </div>
 
-
-
                     <div className="benefitItem">
                         <i class="fa-solid fa-cart-shopping"></i>
                         <span>Cartify Delivered</span>

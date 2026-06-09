@@ -1,9 +1,14 @@
 import React from 'react'
+import Fashionimg from '../components/Fashionimg'
+import Heading from '../components/Heading'
 
 const Fashion = () => {
   return (
     <div>
-        Fashion
+        
+        {/* wkdiwd */}
+        <Heading heading="Cartify Fashion" desc="Discover the latest trends in fashion."/>
+        <Fashionimg/>
       
     </div>
   )
