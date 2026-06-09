@@ -1,7 +1,6 @@
 .FooterContainer{
     height: 500px;
     max-width: 100%;
-    /* border: 2px solid black; */
     margin-top: 30px;
 }
 
@@ -11,8 +10,6 @@
     width: 100%;
 }
 
-/* Back To Top */
-
 .back-to-top {
     background: #37475a;
     padding: 18px;
@@ -20,8 +17,6 @@
     font-weight: bold;
     cursor: pointer;
 }
-
-/* Top Section */
 
 .footer-top {
     display: flex;
@@ -54,7 +49,6 @@
     color: white;
 }
 
-/* Middle Section */
 
 .footer-middle {
     display: flex;
@@ -79,7 +73,6 @@
     margin-bottom: 10px;
 }
 
-/* Bottom Section */
 
 .footer-bottom {
     padding: 25px;

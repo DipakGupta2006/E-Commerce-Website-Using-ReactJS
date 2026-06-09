@@ -27,9 +27,7 @@
 .grocery-card img {
     width: 220px;
     height: 220px;
-    /* border-radius: 50%; */
     object-fit: contain;
-    /* background-color: #dff1bc; */
 }
 
 .grocery-card p {

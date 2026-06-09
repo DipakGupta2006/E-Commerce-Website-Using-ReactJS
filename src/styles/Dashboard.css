@@ -40,10 +40,8 @@
 .BodyNav h3 {
     margin-bottom: 18px;
     font-size: 1.3rem;
-    /* letter-spacing:-114em; */
     color: #111827;
     letter-spacing: 0.02em;
-    /* position: sticky; */
 }
 
 .BodyNav ul {
@@ -106,7 +104,6 @@
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
-    /* margin: 30px; */
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -188,7 +185,6 @@
     }
 }
 
-/* Mobile: hide left navigation (Leftlink) and adjust banner small images */
 @media (max-width: 640px) {
     .BodyNav {
         display: none;
@@ -201,17 +197,13 @@
 
 #BannerDashboard {
     position: relative;
-    /* display: flex; */
-    /* justify-content: center; */
+    
 }
 
 .small-images img {
     width: 230px;
     height: 230px;
-    /* border-radius: 10px; */
-    /* object-fit: cover; */
     object-fit: contain;
-
     position: absolute;
 }
 

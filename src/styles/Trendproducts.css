@@ -1,42 +1,38 @@
-.TrendingProducts{
+.TrendingProducts {
     height: 600px;
     max-width: 1400px;
-    /* border: 2px solid black; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     margin-top: -30px;
-    img{
-        /* border: 2px solid black; */
-        border-radius: 1px;
-    }
+
+}
+
+.TrendingProducts img {
+    border-radius: 1px;
 }
 
 
-.TrendingBox{
-    /* border: 2px solid rgb(31, 26, 19); */
+.TrendingBox {
     height: 520px;
-    text-align:left;
-    /* margin: 3px; */
+    text-align: left;
 
 }
 
-.trendname{
-    /* margin-top: 5px; */
+.trendname {
     margin-bottom: 3px;
 }
 
-.trendoff{
+.trendoff {
     margin-top: 4px;
     margin-bottom: 8px;
 
 }
 
-.trendmrp{
+.trendmrp {
     margin-bottom: -8px;
 }
 
-.trendinfo{
+.trendinfo {
     padding: 4px;
 }
 
@@ -81,7 +77,6 @@
     align-items: center;
     margin-top: 20px;
     gap: 10px;
-    /* border: 2px solid red; */
     flex-wrap: wrap;
 }
 
@@ -133,7 +128,6 @@
     text-decoration: underline;
 }
 
-/* Mobile: stack product image and details vertically */
 @media (max-width: 640px) {
     .TrendingProducts {
         height: auto;
@@ -159,4 +153,3 @@
         box-sizing: border-box;
     }
 }
-

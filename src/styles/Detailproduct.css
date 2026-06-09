@@ -1,14 +1,10 @@
-#detailBoxImg {
-    /* border: 2px solid rgb(246, 44, 37); */
 
-}
 
 #detailBoxImg img {
     border-radius: 1px;
 }
 
 .detailBox {
-    /* border: 2px solid black; */
     height: 750px;
     width: 1010px;
     display: flex;
@@ -16,15 +12,12 @@
 
 #DetailProduct {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* box-sizing: border-box; */
 }
 
 .LeftBoxDetail {
     height: 700px;
     width: 550px;
-    /* border: 3px solid gray; */
     padding: 15px;
     font-family: Arial, sans-serif;
 }
@@ -35,7 +28,6 @@
 
 .name {
     font-size: 23px;
-    /* padding: 5px; */
 }
 
 
@@ -45,7 +37,6 @@
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 15px;
-    /* border: 2px solid black; */
 }
 
 .ratenum {
@@ -61,7 +52,6 @@
 }
 
 .brought {
-    /* margin: 5px; */
     font-size: 15px;
     padding-bottom: 7px;
 }
@@ -74,13 +64,10 @@
 
 .off {
     background-color: #c10015;
-    /* padding-bottom: 13px; */
     color: white;
     padding: 5px;
     border-radius: 7px;
-    /* margin: 3px; */
     display: inline-block;
-    /* display: flex; */
 }
 
 .price {
@@ -120,12 +107,6 @@
     padding-bottom: 12px;
 }
 
-.leftContainer{
-    /* border: 2px solid black; */
-    /* height: 200px; */
-    /* height: 50%; */
-
-}
 
 table {
     border-collapse: collapse;
@@ -141,25 +122,19 @@ td:first-child {
     font-weight: 400;
     color: #565959;
     width: 180px;
-    /* padding-left: 13px; */
 }
 
 .highlights{
     color: #0f1111;
-    /* padding-left: -13px; */
 }
 
 .bottomContainer{
 padding-top: 15px;
 }
 
-.about-item {
-    /* margin-top: 25px; */
-}
 
 .about-item h3 {
     font-size: 16px;
-    /* margin-bottom: 12px; */
     color: #0f1111;
 }
 
@@ -178,7 +153,6 @@ padding-top: 15px;
 .RightBoxDetail {
     height: 740px;
     width: 540px;
-    /* border: 3px solid gray; */
 
     display: flex;
     justify-content: center;
@@ -195,7 +169,6 @@ padding-top: 15px;
     border-radius: 1px;
 }
 
-/* Mobile responsiveness: stack detail box and scale images for small screens */
 @media (max-width: 768px) {
     .detailBox {
         flex-direction: column;
@@ -226,7 +199,6 @@ padding-top: 15px;
         padding: 8px;
     }
 
-    /* Stack small images vertically on narrow screens to avoid overlap */
     .RightBoxDetail {
         flex-direction: column;
         align-items: center;
